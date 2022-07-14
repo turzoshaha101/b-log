@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 60%;
+    border-radius: 7px;
+    background-color:#ffcc00 ;
+    background-image: url(../img/nu.png);
+    background-position:calc(90%);
+    background-size:calc(35%);
+    background-repeat: no-repeat;
+    
+   
+
+}
+
+.form-control{
+  width: 100%;
+  align-items: center;
+  background: transparent;
+  
+}
+.form-control:focus{
+    border: 3px solid dodgerblue;
+}
+
+::placeholder{
+    margin: auto;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing:1px;
+    font-weight: bold;
+}
+
+.la{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing:1px;
+    font-weight: bold;
+    color: rgb(123, 128, 105);
+    margin-top: 25px;
+
+}
+
+.icon{
+    font-size: 30px;
+    color:rgb(123, 128, 105);
+    padding: 5px;
+}
+.bt{
+   width: 50%; 
+   margin-left: 25%;
+   margin-right: 25%;
+    margin-top:5% ;
+    background-image: url(../img/dt4.jpg);
+    background-size:calc(100%);
+    background-repeat: no-repeat;
+    color:rgb(123, 128, 105);
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    border: none;
+}
+.we{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing:1px;
+    font-weight: bold;
+    font-size: 12px;
+}
